@@ -1,0 +1,16 @@
+{
+  "products": [
+    {
+      "image": "demo_product.jpg",
+      "name": "Demo Product",
+      "headline": "Premium Quality",
+      "tagline": "Designed for you"
+    },
+    {
+      "image": "data/products/camera_lens.jpeg",
+      "name": "Camera Lens"
+    }
+  ],
+  "backend": "procedural",
+  "seed": 42
+}

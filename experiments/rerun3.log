@@ -1,0 +1,51 @@
+sleep inhibited
+sunglasses_black     rows=108   elapsed=1.2m eta=22m
+sunglasses_blue      rows=216   elapsed=2.3m eta=21m
+headphones_black     rows=324   elapsed=3.7m eta=21m
+headphones_grey      rows=432   elapsed=5.1m eta=20m
+mug_white            rows=540   elapsed=6.5m eta=19m
+camera_dslr          rows=648   elapsed=7.9m eta=18m
+camera_lens          rows=756   elapsed=9.2m eta=17m
+backpack_black       rows=864   elapsed=10.5m eta=16m
+can_heyday           rows=972   elapsed=11.8m eta=14m
+tube_lets_talk       rows=1080  elapsed=13.0m eta=13m
+smartphone_blank     rows=1188  elapsed=14.2m eta=12m
+mug_enamel           rows=1296  elapsed=15.5m eta=10m
+camera_mirrorless    rows=1404  elapsed=16.9m eta=9m
+perfume_fire         rows=1512  elapsed=18.3m eta=8m
+perfume_dark         rows=1620  elapsed=19.7m eta=7m
+earbuds_black        rows=1728  elapsed=21.2m eta=5m
+flask_green          rows=1836  elapsed=22.3m eta=4m
+flask_northland      rows=1944  elapsed=23.5m eta=3m
+candle_pink          rows=2052  elapsed=24.8m eta=1m
+pouch_kraft          rows=2160  elapsed=26.1m eta=0m
+
+2160 row(s) -> experiments\results.csv
+cache: {'background-turbo': {'entries': 378, 'megabytes': 348.6}, 'extraction': {'entries': 20, 'megabytes': 5.9}}
+resuming: 2160 row(s) already present
+sleep inhibited
+sunglasses_black     rows=72    elapsed=0.9m eta=20m
+sunglasses_blue      rows=144   elapsed=1.7m eta=19m
+headphones_black     rows=216   elapsed=2.6m eta=19m
+headphones_grey      rows=288   elapsed=3.7m eta=18m
+mug_white            rows=360   elapsed=4.7m eta=17m
+camera_dslr          rows=432   elapsed=5.7m eta=17m
+camera_lens          rows=504   elapsed=6.6m eta=15m
+backpack_black       rows=576   elapsed=7.5m eta=14m
+can_heyday           rows=648   elapsed=8.4m eta=13m
+tube_lets_talk       rows=720   elapsed=9.3m eta=12m
+smartphone_blank     rows=792   elapsed=10.1m eta=10m
+mug_enamel           rows=864   elapsed=11.0m eta=9m
+camera_mirrorless    rows=936   elapsed=12.0m eta=8m
+perfume_fire         rows=1008  elapsed=13.0m eta=7m
+perfume_dark         rows=1080  elapsed=14.0m eta=6m
+earbuds_black        rows=1152  elapsed=15.0m eta=5m
+flask_green          rows=1224  elapsed=15.9m eta=3m
+flask_northland      rows=1296  elapsed=16.7m eta=2m
+candle_pink          rows=1368  elapsed=17.6m eta=1m
+pouch_kraft          rows=1440  elapsed=18.5m eta=0m
+
+1440 row(s) -> experiments\results.csv
+120 combination(s) already present
+cache: {'background-turbo': {'entries': 378, 'megabytes': 348.6}, 'extraction': {'entries': 20, 'megabytes': 5.9}}
+ALL DONE

@@ -1,0 +1,245 @@
+{
+  "_comment": "Experiment dataset. Curated from Pexels candidates by scripts/curate.py; see data/README.md for the criteria. Validate with: python -m adflow.dataset --validate",
+  "products": [
+    {
+      "id": "sunglasses_black",
+      "image": "data/products/sunglasses_black.jpeg",
+      "name": "Black Sunglasses",
+      "category": "eyewear",
+      "background": "white",
+      "source": "https://www.pexels.com/photo/sunglasses-on-a-white-surface-8360292/",
+      "licence": "Pexels License",
+      "notes": "specular, wide, unbranded; photographer: Viany J. Jimenez"
+    },
+    {
+      "id": "sunglasses_blue",
+      "image": "data/products/sunglasses_blue.jpeg",
+      "name": "Blue Sunglasses",
+      "category": "eyewear",
+      "background": "white",
+      "source": "https://www.pexels.com/photo/stylish-blue-gradient-sunglasses-isolated-38321611/",
+      "licence": "Pexels License",
+      "notes": "specular, wide, small temple text; photographer: Christopher Welsch Leveroni"
+    },
+    {
+      "id": "headphones_black",
+      "image": "data/products/headphones_black.jpeg",
+      "name": "Over-ear Headphones",
+      "category": "electronics",
+      "background": "white",
+      "source": "https://www.pexels.com/photo/black-headphones-on-white-surface-7772548/",
+      "licence": "Pexels License",
+      "notes": "mixed materials, square-ish; photographer: Caleb Oquendo"
+    },
+    {
+      "id": "headphones_grey",
+      "image": "data/products/headphones_grey.jpeg",
+      "name": "Studio Headphones",
+      "category": "electronics",
+      "background": "white",
+      "source": "https://www.pexels.com/photo/black-studio-headphones-on-white-background-30428610/",
+      "licence": "Pexels License",
+      "notes": "mixed materials, square-ish; photographer: Vladislav Anchuk"
+    },
+    {
+      "id": "mug_white",
+      "image": "data/products/mug_white.jpeg",
+      "name": "White Mug",
+      "category": "homeware",
+      "background": "white",
+      "source": "https://www.pexels.com/photo/white-mug-on-white-surface-6312107/",
+      "licence": "Pexels License",
+      "notes": "matte, square-ish, blank - edge-retention floor control; photographer: KATRIN  BOLOVTSOVA"
+    },
+    {
+      "id": "camera_dslr",
+      "image": "data/products/camera_dslr.jpeg",
+      "name": "DSLR Camera",
+      "category": "electronics",
+      "background": "white",
+      "source": "https://www.pexels.com/photo/black-dslr-camera-on-white-surface-7619784/",
+      "licence": "Pexels License",
+      "notes": "mixed, wide, body lettering; photographer: Vlado Krstevski"
+    },
+    {
+      "id": "camera_lens",
+      "image": "data/products/camera_lens.jpeg",
+      "name": "Camera Lens",
+      "category": "electronics",
+      "background": "white",
+      "source": "https://www.pexels.com/photo/high-quality-black-camera-lens-on-white-background-34956920/",
+      "licence": "Pexels License",
+      "notes": "dense engraved markings - strongest edge-retention case; photographer: Sirius Df"
+    },
+    {
+      "id": "backpack_black",
+      "image": "data/products/backpack_black.jpeg",
+      "name": "Black Backpack",
+      "category": "bags",
+      "background": "white",
+      "source": "https://www.pexels.com/photo/a-black-backpack-on-white-surface-13869858/",
+      "licence": "Pexels License",
+      "notes": "matte fabric, square-ish; photographer: Matheus Bertelli"
+    },
+    {
+      "id": "can_heyday",
+      "image": "data/products/can_heyday.jpeg",
+      "name": "Beverage Can",
+      "category": "beverage",
+      "background": "plain",
+      "source": "https://www.pexels.com/photo/aluminium-can-with-alcoholic-beverage-6488929/",
+      "licence": "Pexels License",
+      "notes": "specular metal, tall, bold graphic type; photographer: Amir Esrafili"
+    },
+    {
+      "id": "tube_lets_talk",
+      "image": "data/products/tube_lets_talk.jpeg",
+      "name": "Cosmetic Tube",
+      "category": "cosmetics",
+      "background": "plain",
+      "source": "https://www.pexels.com/photo/colorful-tube-with-let-s-talk-text-on-bold-background-32098277/",
+      "licence": "Pexels License",
+      "notes": "matte, tall, dense label type; photographer: Ann H"
+    },
+    {
+      "id": "smartphone_blank",
+      "image": "data/products/smartphone_blank.jpeg",
+      "name": "Smartphone",
+      "category": "electronics",
+      "background": "plain",
+      "source": "https://www.pexels.com/photo/a-smartphone-with-blank-screen-on-white-surface-6373126/",
+      "licence": "Pexels License",
+      "notes": "specular glass, tall, blank screen; photographer: KATRIN  BOLOVTSOVA"
+    },
+    {
+      "id": "mug_enamel",
+      "image": "data/products/mug_enamel.jpeg",
+      "name": "Enamel Mug",
+      "category": "homeware",
+      "background": "plain",
+      "source": "https://www.pexels.com/photo/metal-mug-in-white-background-12024967/",
+      "licence": "Pexels License",
+      "notes": "semi-matte, square-ish; photographer: Mr. Mockup"
+    },
+    {
+      "id": "camera_mirrorless",
+      "image": "data/products/camera_mirrorless.jpeg",
+      "name": "Mirrorless Camera",
+      "category": "electronics",
+      "background": "plain",
+      "source": "https://www.pexels.com/photo/professional-photo-camera-on-white-background-7772524/",
+      "licence": "Pexels License",
+      "notes": "mixed, wide; photographer: Caleb Oquendo"
+    },
+    {
+      "id": "perfume_fire",
+      "image": "data/products/perfume_fire.jpeg",
+      "name": "Perfume (wood stand)",
+      "category": "fragrance",
+      "background": "scene",
+      "source": "https://www.pexels.com/photo/perfume-15096784/",
+      "licence": "Pexels License",
+      "notes": "specular glass, tall, label type; photographer: Dhally Romy"
+    },
+    {
+      "id": "perfume_dark",
+      "image": "data/products/perfume_dark.jpeg",
+      "name": "Perfume (dark cloth)",
+      "category": "fragrance",
+      "background": "scene",
+      "source": "https://www.pexels.com/photo/elegant-perfume-bottle-on-dark-fabric-background-36779953/",
+      "licence": "Pexels License",
+      "notes": "specular glass, square-ish; photographer: Suhas Hanjar"
+    },
+    {
+      "id": "earbuds_black",
+      "image": "data/products/earbuds_black.jpeg",
+      "name": "Earbud Case",
+      "category": "electronics",
+      "background": "scene",
+      "source": "https://www.pexels.com/photo/black-earbuds-in-black-casing-8858287/",
+      "licence": "Pexels License",
+      "notes": "gloss plastic, wide, wood ground; photographer: SpotwizardLee"
+    },
+    {
+      "id": "flask_green",
+      "image": "data/products/flask_green.jpeg",
+      "name": "Vacuum Flask (outdoor)",
+      "category": "drinkware",
+      "background": "scene",
+      "source": "https://www.pexels.com/photo/bottle-on-rock-in-forest-14698376/",
+      "licence": "Pexels License",
+      "notes": "specular metal, tall, foliage ground; photographer: Yasin Tetik"
+    },
+    {
+      "id": "flask_northland",
+      "image": "data/products/flask_northland.jpeg",
+      "name": "Vacuum Flask (snow)",
+      "category": "drinkware",
+      "background": "scene",
+      "source": "https://www.pexels.com/photo/white-northland-vacuum-flask-on-a-bench-covered-with-a-thick-layer-of-snow-19245661/",
+      "licence": "Pexels License",
+      "notes": "specular metal, tall, printed mark; photographer: Darya Grey_Owl"
+    },
+    {
+      "id": "candle_pink",
+      "image": "data/products/candle_pink.jpeg",
+      "name": "Candle Jar",
+      "category": "homeware",
+      "background": "scene",
+      "source": "https://www.pexels.com/photo/close-up-of-cosmetic-jar-17145779/",
+      "licence": "Pexels License",
+      "notes": "matte label on glass, square-ish; photographer: Sofía  Nuñez"
+    },
+    {
+      "id": "pouch_kraft",
+      "image": "data/products/pouch_kraft.jpeg",
+      "name": "Kraft Stand-up Pouch",
+      "category": "packaging",
+      "background": "plain",
+      "source": "https://www.pexels.com/photo/paper-bag-on-white-background-12039675/",
+      "licence": "Pexels License",
+      "notes": "matte kraft paper, tall; paper grain and zip serrations carry the high-frequency detail. Replaces the withdrawn Pixabay perfume (licence unresolved). photographer: mockupbee"
+    },
+    {
+      "id": "camera_lens_cut",
+      "image": "data/products/camera_lens_cut.png",
+      "name": "Camera Lens (pre-cut)",
+      "category": "electronics",
+      "background": "transparent",
+      "source": "https://www.pexels.com/photo/high-quality-black-camera-lens-on-white-background-34956920/",
+      "licence": "Pexels License",
+      "notes": "hand-verified threshold mask, NOT a hand-drawn annotation: background distance + Otsu + morphology, then inspected at 1:1 along the boundary. Derived from camera_lens, so treat the two as one item when sampling. Gives an extraction-error-free reference for attributing fidelity loss to compositing."
+    },
+    {
+      "id": "sunglasses_blue_cut",
+      "image": "data/products/sunglasses_blue_cut.png",
+      "name": "Blue Sunglasses (pre-cut)",
+      "category": "eyewear",
+      "background": "transparent",
+      "source": "https://www.pexels.com/photo/stylish-blue-gradient-sunglasses-isolated-38321611/",
+      "licence": "Pexels License",
+      "notes": "synthetic pre-cut input: the Stage 2 cut-out of sunglasses_blue saved as alpha, so Stage 2 reads the mask back exactly and adds no error. Isolates compositing loss and carries no information about matting accuracy. Derived from sunglasses_blue; sample the two as one item."
+    },
+    {
+      "id": "headphones_black_cut",
+      "image": "data/products/headphones_black_cut.png",
+      "name": "Over-ear Headphones (pre-cut)",
+      "category": "electronics",
+      "background": "transparent",
+      "source": "https://www.pexels.com/photo/black-headphones-on-white-surface-7772548/",
+      "licence": "Pexels License",
+      "notes": "synthetic pre-cut input: the Stage 2 cut-out of headphones_black saved as alpha, so Stage 2 reads the mask back exactly and adds no error. Isolates compositing loss and carries no information about matting accuracy. Derived from headphones_black; sample the two as one item."
+    },
+    {
+      "id": "backpack_black_cut",
+      "image": "data/products/backpack_black_cut.png",
+      "name": "Black Backpack (pre-cut)",
+      "category": "bags",
+      "background": "transparent",
+      "source": "https://www.pexels.com/photo/a-black-backpack-on-white-surface-13869858/",
+      "licence": "Pexels License",
+      "notes": "synthetic pre-cut input: the Stage 2 cut-out of backpack_black saved as alpha, so Stage 2 reads the mask back exactly and adds no error. Isolates compositing loss and carries no information about matting accuracy. Derived from backpack_black; sample the two as one item."
+    }
+  ]
+}

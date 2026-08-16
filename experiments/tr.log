@@ -1,0 +1,536 @@
+[transformers] `Siglip2ImageProcessorFast` is deprecated. The `Fast` suffix for image processors has been removed; use `Siglip2ImageProcessor` instead.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+22:49:06 | WARNING | huggingface_hub.utils._http | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+resuming: 4320 row(s) already present
+sleep inhibited
+sunglasses_black     rows=0     elapsed=0.0m eta=39m
+sunglasses_blue      rows=0     elapsed=0.1m eta=52m
+headphones_black     rows=0     elapsed=0.1m eta=63m
+headphones_grey      rows=0     elapsed=0.1m eta=71m
+mug_white            rows=0     elapsed=0.1m eta=81m
+camera_dslr          rows=0     elapsed=0.1m eta=89m
+camera_lens          rows=0     elapsed=0.1m eta=94m
+backpack_black       rows=0     elapsed=0.1m eta=98m
+can_heyday           rows=0     elapsed=0.2m eta=101m
+tube_lets_talk       rows=0     elapsed=0.2m eta=103m
+smartphone_blank     rows=0     elapsed=0.2m eta=103m
+mug_enamel           rows=0     elapsed=0.2m eta=103m
+camera_mirrorless    rows=0     elapsed=0.2m eta=101m
+perfume_fire         rows=0     elapsed=0.2m eta=98m
+perfume_dark         rows=0     elapsed=0.2m eta=94m
+earbuds_black        rows=0     elapsed=0.3m eta=89m
+flask_green          rows=0     elapsed=0.3m eta=82m
+flask_northland      rows=0     elapsed=0.3m eta=73m
+candle_pink          rows=0     elapsed=0.3m eta=64m
+pouch_kraft          rows=0     elapsed=0.3m eta=54m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (78 > 77). Running this sequence through the model will result in indexing errors
+[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer CLIPTokenizer. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['minimal']
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (78 > 77). Running this sequence through the model will result in indexing errors
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['minimal']
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+camera_lens_cut      rows=126   elapsed=13.3m eta=40m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sunglasses_blue_cut  rows=252   elapsed=25.1m eta=25m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+headphones_black_cut rows=378   elapsed=36.5m eta=12m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+backpack_black_cut   rows=504   elapsed=48.0m eta=0m
+
+504 row(s) -> experiments\results.csv
+840 combination(s) already present
+cache: {'background-turbo': {'entries': 405, 'megabytes': 373.5}, 'extraction': {'entries': 24, 'megabytes': 7.0}}
+[transformers] `Siglip2ImageProcessorFast` is deprecated. The `Fast` suffix for image processors has been removed; use `Siglip2ImageProcessor` instead.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+23:37:28 | WARNING | huggingface_hub.utils._http | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+resuming: 4824 row(s) already present
+sleep inhibited
+sunglasses_black     rows=0     elapsed=0.0m eta=4m
+sunglasses_blue      rows=0     elapsed=0.0m eta=5m
+headphones_black     rows=0     elapsed=0.0m eta=5m
+headphones_grey      rows=0     elapsed=0.0m eta=5m
+mug_white            rows=0     elapsed=0.0m eta=6m
+camera_dslr          rows=0     elapsed=0.0m eta=6m
+camera_lens          rows=0     elapsed=0.0m eta=7m
+backpack_black       rows=0     elapsed=0.0m eta=6m
+can_heyday           rows=0     elapsed=0.0m eta=6m
+tube_lets_talk       rows=0     elapsed=0.0m eta=6m
+smartphone_blank     rows=0     elapsed=0.0m eta=6m
+mug_enamel           rows=0     elapsed=0.0m eta=6m
+camera_mirrorless    rows=0     elapsed=0.0m eta=6m
+perfume_fire         rows=0     elapsed=0.0m eta=5m
+perfume_dark         rows=0     elapsed=0.0m eta=5m
+earbuds_black        rows=0     elapsed=0.0m eta=5m
+flask_green          rows=0     elapsed=0.0m eta=5m
+flask_northland      rows=0     elapsed=0.0m eta=4m
+candle_pink          rows=0     elapsed=0.0m eta=3m
+pouch_kraft          rows=0     elapsed=0.0m eta=3m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+camera_lens_cut      rows=90    elapsed=4.2m eta=15m
+sunglasses_blue_cut  rows=180   elapsed=5.3m eta=6m
+headphones_black_cut rows=270   elapsed=6.4m eta=3m
+backpack_black_cut   rows=360   elapsed=7.6m eta=0m
+
+360 row(s) -> experiments\results.csv
+744 combination(s) already present
+cache: {'background-turbo': {'entries': 414, 'megabytes': 381.7}, 'extraction': {'entries': 24, 'megabytes': 7.0}}
+TR_DONE

@@ -1,0 +1,124 @@
+[transformers] `Siglip2ImageProcessorFast` is deprecated. The `Fast` suffix for image processors has been removed; use `Siglip2ImageProcessor` instead.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+10:44:29 | WARNING | huggingface_hub.utils._http | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+resuming: 1059 row(s) already present
+sleep inhibited
+sunglasses_black     rows=0     elapsed=0.0m eta=1m
+sunglasses_blue      rows=0     elapsed=0.0m eta=2m
+headphones_black     rows=0     elapsed=0.0m eta=2m
+headphones_grey      rows=0     elapsed=0.0m eta=2m
+mug_white            rows=0     elapsed=0.0m eta=3m
+camera_dslr          rows=0     elapsed=0.0m eta=3m
+camera_lens          rows=0     elapsed=0.0m eta=3m
+backpack_black       rows=0     elapsed=0.0m eta=3m
+can_heyday           rows=0     elapsed=0.0m eta=3m
+
+
+
+
+
+
+
+
+tube_lets_talk       rows=21    elapsed=0.9m eta=46m
+
+
+
+
+
+
+smartphone_blank     rows=129   elapsed=2.6m eta=19m
+
+
+
+
+
+
+mug_enamel           rows=237   elapsed=4.3m eta=16m
+
+
+
+
+
+
+camera_mirrorless    rows=345   elapsed=6.2m eta=14m
+
+
+
+
+
+
+perfume_fire         rows=453   elapsed=8.1m eta=12m
+
+
+
+
+
+
+perfume_dark         rows=561   elapsed=10.0m eta=10m
+
+
+
+
+
+
+earbuds_black        rows=669   elapsed=12.0m eta=8m
+
+
+
+
+
+
+flask_green          rows=777   elapsed=13.7m eta=6m
+
+
+
+
+
+
+flask_northland      rows=885   elapsed=16.5m eta=4m
+
+
+
+
+
+
+candle_pink          rows=993   elapsed=18.4m eta=2m
+
+
+
+
+
+
+pouch_kraft          rows=1101  elapsed=20.4m eta=0m
+
+1101 row(s) -> experiments\results.csv
+353 combination(s) already present
+cache: {'background-turbo': {'entries': 378, 'megabytes': 348.6}, 'extraction': {'entries': 20, 'megabytes': 5.9}}
+resuming: 2160 row(s) already present
+sleep inhibited
+sunglasses_black     rows=72    elapsed=0.8m eta=19m
+sunglasses_blue      rows=144   elapsed=1.6m eta=18m
+headphones_black     rows=216   elapsed=2.5m eta=18m
+headphones_grey      rows=288   elapsed=3.4m eta=17m
+mug_white            rows=360   elapsed=4.3m eta=16m
+camera_dslr          rows=432   elapsed=5.2m eta=15m
+camera_lens          rows=504   elapsed=6.0m eta=14m
+backpack_black       rows=576   elapsed=7.0m eta=13m
+can_heyday           rows=648   elapsed=7.8m eta=12m
+tube_lets_talk       rows=720   elapsed=8.6m eta=11m
+smartphone_blank     rows=792   elapsed=9.3m eta=10m
+mug_enamel           rows=864   elapsed=10.2m eta=8m
+camera_mirrorless    rows=936   elapsed=11.1m eta=7m
+perfume_fire         rows=1008  elapsed=12.1m eta=6m
+perfume_dark         rows=1080  elapsed=13.1m eta=5m
+earbuds_black        rows=1152  elapsed=14.0m eta=4m
+flask_green          rows=1224  elapsed=14.8m eta=3m
+flask_northland      rows=1296  elapsed=15.5m eta=2m
+candle_pink          rows=1368  elapsed=16.4m eta=1m
+pouch_kraft          rows=1440  elapsed=17.2m eta=0m
+
+1440 row(s) -> experiments\results.csv
+120 combination(s) already present
+cache: {'background-turbo': {'entries': 378, 'megabytes': 348.6}, 'extraction': {'entries': 20, 'megabytes': 5.9}}
+ALL DONE

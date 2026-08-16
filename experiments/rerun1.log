@@ -1,0 +1,86 @@
+[transformers] `Siglip2ImageProcessorFast` is deprecated. The `Fast` suffix for image processors has been removed; use `Siglip2ImageProcessor` instead.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+10:18:31 | WARNING | huggingface_hub.utils._http | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sunglasses_black     rows=108   elapsed=4.3m eta=81m
+
+
+
+
+
+
+sunglasses_blue      rows=216   elapsed=6.1m eta=55m
+
+
+
+
+
+
+headphones_black     rows=324   elapsed=8.1m eta=46m
+
+
+
+
+
+
+headphones_grey      rows=432   elapsed=10.5m eta=42m
+
+
+
+
+
+
+mug_white            rows=540   elapsed=12.8m eta=38m
+
+
+
+
+
+
+camera_dslr          rows=648   elapsed=14.8m eta=34m
+
+
+
+
+
+
+camera_lens          rows=756   elapsed=17.8m eta=33m
+
+
+
+
+
+
+backpack_black       rows=864   elapsed=22.2m eta=33m
+
+
+
+
+
+
+can_heyday           rows=972   elapsed=25.0m eta=31m
+
+
+

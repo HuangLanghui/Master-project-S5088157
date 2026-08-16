@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=77"]      # PEP 639 `license` / `license-files`
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "adflow"
+version = "0.2.0"
+description = "Asymmetric generation for multi-format product advertising"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.10"
+
+# Core: everything needed to produce an ad offline, with no GPU and no network.
+dependencies = [
+    "pillow>=10.0",
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+# Better matting than the built-in GrabCut fallback.
+matting = ["rembg>=2.0", "opencv-python>=4.8"]
+# Stage 9 metrics. Without these the pipeline falls back to a coarser
+# numpy SSIM, which is fine for a demo but not for reported results.
+eval = ["scikit-image>=0.22", "lpips>=0.1.4", "torch>=2.0"]
+# Experiment harness: sweeps, aggregation, figures.
+experiments = ["pandas>=2.0", "matplotlib>=3.7", "scipy>=1.11"]
+# Generative background (Stage 5) and generative relighting (Stage 6c).
+generative = ["torch>=2.0", "diffusers>=0.27", "transformers>=4.40", "accelerate>=0.30"]
+# VLM copywriting (Stage 3b) and product understanding (Stage 1).
+vlm = ["anthropic>=0.40"]
+# The browser harness in webapp/. python-multipart is what handles the upload
+# field on `/`; without it FastAPI rejects the form rather than the file.
+web = ["fastapi>=0.110", "uvicorn>=0.29", "python-multipart>=0.0.9"]
+# httpx2 is the HTTP client starlette's TestClient runs on; current versions
+# warn if given the older httpx instead. Naming it here is not optional: the
+# webapp tests do not skip without a client, they abort collection, because
+# starlette raises RuntimeError rather than ImportError and importorskip cannot
+# catch that. The test module guards the import as well, so an installation
+# that resolves to an older starlette skips rather than failing.
+dev = ["pytest>=8.0", "httpx2>=2.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+# Experiments are slow; opt in with `pytest -m slow`.
+markers = ["slow: full-pipeline runs, excluded from the default suite"]
+addopts = "-m 'not slow'"

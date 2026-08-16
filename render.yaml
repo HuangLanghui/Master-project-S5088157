@@ -1,0 +1,38 @@
+# Render blueprint for the browser harness.
+#
+# Free tier is 512 MB of RAM and shared CPU, which is the whole reason this
+# file pins a stripped dependency set and a single worker. See
+# requirements-render.txt for what is left out and why.
+#
+# Deploy: Render dashboard -> New -> Blueprint -> pick this repository.
+
+services:
+  - type: web
+    name: adflow-harness
+    runtime: python
+    plan: free
+    region: frankfurt          # nearest to the UK of the free regions
+    branch: main
+    healthCheckPath: /health
+
+    # No model to fetch: matting does not fit in 512 MB, so the cut-outs are
+    # precomputed and committed. See requirements-render.txt.
+    buildCommand: |
+      pip install --upgrade pip
+      pip install -r requirements-render.txt
+      pip install -e . --no-deps
+
+    startCommand: python webapp/app.py
+
+    envVars:
+      - key: ADFLOW_DEPLOY
+        value: "1"
+      - key: PYTHON_VERSION
+        value: "3.12.7"
+      # numpy and OpenCV will each try to fill the machine with threads they
+      # cannot use on a shared core, and the memory that costs is memory the
+      # render needs.
+      - key: OMP_NUM_THREADS
+        value: "1"
+      - key: OPENBLAS_NUM_THREADS
+        value: "1"

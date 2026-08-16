@@ -1,0 +1,41 @@
+# Hosted deployment (Render free tier: 512 MB RAM, no GPU).
+#
+# The omissions are the point. torch and lpips are absent because Stage 9 loads
+# LPIPS eagerly when torch is importable, and that takes one render from a
+# ~350 MB peak to ~1.3 GB, which does not fit. `perceptual_distance` returns
+# None when the import fails, so the hosted metric table shows a blank LPIPS
+# cell rather than a wrong number. diffusers is absent because the backend it
+# serves needs a GPU; the site forces the procedural backend instead.
+#
+# These are NOT the versions the reported results were produced with. That set
+# is requirements.txt, and it cannot be reused here: it pins numpy 2.2.6 and
+# pillow 11.3.0, while rembg 2.0.78 requires numpy>=2.3 and pillow>=12.1. This
+# file serves a demonstration, so it follows rembg; anything being reported
+# should be run against requirements.txt instead.
+#
+# Local development wants `pip install -e ".[matting,eval,experiments,web]"`
+# rather than this file, which is deliberately crippled.
+
+fastapi>=0.115
+uvicorn>=0.30
+python-multipart>=0.0.9
+
+pillow>=12.1
+numpy>=2.3,<3
+
+# Stage 2 is deliberately absent. Peak RSS for one extraction is 729 MB through
+# rembg's u2net and 506 MB through u2netp, against a 512 MB instance; the cost
+# is onnxruntime rather than the weights, so the small model does not help.
+# Installing it would only let a visitor kill the process. The site reads the
+# cut-outs from scripts/make_cutouts.py instead, at 69 MB, and uploads fall to
+# GrabCut in OpenCV at 284 MB.
+
+# Stage 9 structural similarity, the erosion in lighting_coherence, and the
+# GrabCut fallback that stands in for matting here.
+# Held to OpenCV 4.x: the code is written and tested against it, and a hosted
+# demo is the wrong place to discover what changed in a major release.
+scikit-image>=0.25
+opencv-python-headless>=4.10,<5
+
+# The /results page. Held below pandas 3 for the same reason.
+pandas>=2.2,<3

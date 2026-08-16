@@ -1,0 +1,22 @@
+﻿.venv/
+__pycache__/
+*.egg-info/
+build/
+dist/
+outputs/
+*.pyc
+.pytest_cache/
+.cache/
+experiments/_scratch/
+webapp/_runs/
+webapp/_uploads/
+experiments/samples/
+experiments/human_study.csv
+webapp/server.log
+
+
+# Local tooling and editor state, not part of the project.
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

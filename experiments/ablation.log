@@ -1,0 +1,99 @@
+[transformers] `Siglip2ImageProcessorFast` is deprecated. The `Fast` suffix for image processors has been removed; use `Siglip2ImageProcessor` instead.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+09:53:37 | WARNING | huggingface_hub.utils._http | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+resuming: 1800 row(s) already present
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sunglasses_black     rows=30    elapsed=2.4m eta=55m
+
+
+
+sunglasses_blue      rows=60    elapsed=3.2m eta=35m
+
+
+
+headphones_black     rows=90    elapsed=3.9m eta=27m
+
+
+
+headphones_grey      rows=120   elapsed=4.7m eta=23m
+
+
+
+mug_white            rows=150   elapsed=5.4m eta=20m
+
+
+
+camera_dslr          rows=180   elapsed=6.4m eta=18m
+
+
+
+camera_lens          rows=210   elapsed=7.2m eta=16m
+
+
+
+backpack_black       rows=240   elapsed=7.9m eta=14m
+
+
+
+can_heyday           rows=270   elapsed=8.7m eta=13m
+
+
+
+tube_lets_talk       rows=300   elapsed=9.4m eta=11m
+
+
+
+smartphone_blank     rows=330   elapsed=10.1m eta=10m
+
+
+
+mug_enamel           rows=360   elapsed=10.8m eta=9m
+
+
+
+camera_mirrorless    rows=390   elapsed=11.5m eta=7m
+
+
+
+perfume_fire         rows=420   elapsed=12.3m eta=6m
+
+
+
+perfume_dark         rows=450   elapsed=13.0m eta=5m
+
+
+
+earbuds_black        rows=480   elapsed=13.7m eta=4m
+
+
+
+flask_green          rows=510   elapsed=14.4m eta=3m
+
+
+
+flask_northland      rows=540   elapsed=15.1m eta=2m
+
+
+
+candle_pink          rows=570   elapsed=15.8m eta=1m
+
+
+
+pouch_kraft          rows=600   elapsed=16.5m eta=0m
+
+600 row(s) -> experiments\results.csv
+40 combination(s) already present
+cache: {'background-turbo': {'entries': 246, 'megabytes': 226.9}, 'extraction': {'entries': 20, 'megabytes': 5.9}}

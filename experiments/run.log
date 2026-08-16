@@ -1,0 +1,218 @@
+[transformers] `Siglip2ImageProcessorFast` is deprecated. The `Fast` suffix for image processors has been removed; use `Siglip2ImageProcessor` instead.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+18:30:06 | WARNING | huggingface_hub.utils._http | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+resuming: 300 row(s) already present
+
+
+
+
+
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (78 > 77). Running this sequence through the model will result in indexing errors
+[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer CLIPTokenizer. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['minimal']
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (78 > 77). Running this sequence through the model will result in indexing errors
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['minimal']
+
+
+
+
+
+
+
+
+
+sunglasses_black     rows=75    elapsed=1.9m eta=44m
+
+
+
+
+
+
+
+
+
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['minimal']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['minimal']
+sunglasses_blue      rows=150   elapsed=3.6m eta=39m
+
+
+
+
+
+
+
+
+
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['minimal']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['minimal']
+headphones_black     rows=225   elapsed=5.4m eta=36m
+
+
+
+
+
+
+
+
+
+headphones_grey      rows=300   elapsed=7.1m eta=34m
+
+
+
+
+
+
+
+
+
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['minimal']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['minimal']
+mug_white            rows=375   elapsed=8.9m eta=32m
+
+
+
+
+
+
+
+
+
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['minimal']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['minimal']
+camera_dslr          rows=450   elapsed=13.8m eta=39m
+
+
+
+
+
+
+
+
+
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['minimal']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['minimal']
+camera_lens          rows=525   elapsed=15.5m eta=34m
+
+
+
+
+
+
+
+
+
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['minimal']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['minimal']
+backpack_black       rows=600   elapsed=17.2m eta=31m
+
+
+
+
+
+
+
+
+
+can_heyday           rows=675   elapsed=18.8m eta=28m
+
+
+
+
+
+
+
+
+
+tube_lets_talk       rows=750   elapsed=20.4m eta=24m
+
+
+
+
+
+
+
+
+
+smartphone_blank     rows=825   elapsed=22.0m eta=22m
+
+
+
+
+
+
+
+
+
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['minimal']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['minimal']
+mug_enamel           rows=900   elapsed=183.8m eta=147m
+
+
+
+
+
+
+
+
+
+camera_mirrorless    rows=975   elapsed=226.0m eta=146m
+
+
+
+
+
+
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['minimal']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['minimal']
+perfume_fire         rows=1050  elapsed=313.0m eta=161m
+
+
+
+
+
+
+
+
+
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['minimal']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['minimal']
+perfume_dark         rows=1125  elapsed=443.1m eta=177m
+
+
+
+
+
+
+
+
+
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['minimal']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['minimal']
+earbuds_black        rows=1200  elapsed=552.0m eta=166m
+
+
+
+
+
+
+
+
+
+flask_green          rows=1275  elapsed=681.9m eta=144m
+
+
+
+
+
+
+
+
+
+flask_northland      rows=1350  elapsed=790.8m eta=105m
+
+
+
+
+
+
+
